@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   modules: [
-    '@nuxt/image'
+    '@nuxt/image',
+    '@nuxt/eslint',
   ],
   image: {
     // The screen sizes predefined by `@nuxt/image`:
@@ -16,5 +17,5 @@ export default defineNuxtConfig({
       xxl: 1536,
       '2xl': 1536
     }
-  }
+  },
 })
