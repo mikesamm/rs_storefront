@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <UApp>
     <HeaderNav />
     <NuxtPage />
     <FooterNav />
-  </div>
+  </UApp>
 </template>

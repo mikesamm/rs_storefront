@@ -3,9 +3,11 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   modules: [
+    '@nuxt/ui',
     '@nuxt/image',
     '@nuxt/eslint',
   ],
+  css: ['./assets/css/main.css'],
   image: {
     // The screen sizes predefined by `@nuxt/image`:
     screens: {
